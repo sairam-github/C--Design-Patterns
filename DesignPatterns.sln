@@ -13,6 +13,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NoFactory", "FactoryPattern
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleFactory", "FactoryPatterns\SimpleFactory\SimpleFactory.csproj", "{1A9C54BB-C8C8-4690-9B55-A20551AB0371}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ChainOfResponsibility", "ChainOfResponsibility", "{B030CD1A-FF1E-45CB-8466-B15E3E2747DC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChainOfResponsibility", "ChainOfResponsibility\ChainOfResponsibility.csproj", "{6B033ACF-BBA4-442B-8BAB-19AC9CEE223B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -53,6 +57,14 @@ Global
 		{1A9C54BB-C8C8-4690-9B55-A20551AB0371}.Release|Any CPU.Build.0 = Release|Any CPU
 		{1A9C54BB-C8C8-4690-9B55-A20551AB0371}.Release|x86.ActiveCfg = Release|Any CPU
 		{1A9C54BB-C8C8-4690-9B55-A20551AB0371}.Release|x86.Build.0 = Release|Any CPU
+		{6B033ACF-BBA4-442B-8BAB-19AC9CEE223B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B033ACF-BBA4-442B-8BAB-19AC9CEE223B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B033ACF-BBA4-442B-8BAB-19AC9CEE223B}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{6B033ACF-BBA4-442B-8BAB-19AC9CEE223B}.Debug|x86.Build.0 = Debug|Any CPU
+		{6B033ACF-BBA4-442B-8BAB-19AC9CEE223B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B033ACF-BBA4-442B-8BAB-19AC9CEE223B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6B033ACF-BBA4-442B-8BAB-19AC9CEE223B}.Release|x86.ActiveCfg = Release|Any CPU
+		{6B033ACF-BBA4-442B-8BAB-19AC9CEE223B}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -62,6 +74,7 @@ Global
 		{55EA1CBE-1A86-4FD5-B5CC-227B78853A24} = {27AA3305-B36A-4A10-8127-295490963A57}
 		{2F6F2B58-B0F6-4F3A-A079-0164CD99E64B} = {27AA3305-B36A-4A10-8127-295490963A57}
 		{1A9C54BB-C8C8-4690-9B55-A20551AB0371} = {27AA3305-B36A-4A10-8127-295490963A57}
+		{6B033ACF-BBA4-442B-8BAB-19AC9CEE223B} = {B030CD1A-FF1E-45CB-8466-B15E3E2747DC}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {463D5940-9FE3-4BD6-B827-06223F611EA3}
