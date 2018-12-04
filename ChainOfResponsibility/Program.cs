@@ -10,7 +10,10 @@ namespace ChainOfResponsibility
     {
         static void Main(string[] args)
         {
+            Printer pri = new Printer(null);
+            Capitalizer Cap = new Capitalizer(pri);
 
+            Cap.ProcessData();
         }
     }
 }
